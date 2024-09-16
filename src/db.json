@@ -1,0 +1,72 @@
+{
+    
+    "jacket":[
+        {
+            "image":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSu4xc7MN85Y1vjklaUIcDCfPd6YtaQg80_HJ0OQ8chvpiifEHYuOhnbcaxlZZVQ2Z6WvJJST3aiYDKBFGP2EIhtrhp7ME5pvsLp1HouZ0k",
+            "name":" Casual Shirt",
+            "color":"black",
+            "size":"m",
+            "price":1500
+
+        },
+        {
+            "image":"https://getketchadmin.getketch.com/product/8905745239253/660/KHSS000090_1.jpg",
+            "name":"Sweatshirts",
+            "color":"Purple",
+            "size":"s",
+            "price":1850
+
+        },
+        {
+            "image":"https://blackberrys.com/cdn/shop/files/printed-formal-shirt-in-blue-jedi-blackberrys-clothing-1.jpg?v=1685949827",
+            "name":"formal shirt",
+            "color":"blue",
+            "size":"s",
+            "price":2000
+
+        },
+        {
+            "image":"https://imgmediagumlet.lbb.in/media/2023/05/64745b1716cbc35fdad2c6e3_1685347095796.jpg?fm=webp&w=750&h=500&dpr=1",
+            "name":"Cuban Collar Shirt",
+            "color":"black",
+            "size":"m",
+            "price":800
+
+        },
+        {
+            "image":"https://brydenapparel.com/wp-content/uploads/2024/01/V-Neck-T-Shirt.jpg",
+            "name":"V-Neck",
+            "color":"Gray",
+            "size":"xl",
+            "price":1200
+
+        },
+        {
+            "image":"https://cdn.vibecity.in/providers/63d9f891e7a1240011ff114a/1000184637_8833ebb9-d683-4e47-9d0d-0823d2378329-3X.png",
+            "name":"Denim jacket",
+            "color":"Blue",
+            "size":"m",
+            "price":900
+
+        },
+        {
+            "image":"https://images-cdn.ubuy.co.in/653a9da0e80f8d13eb06c818-men-39-s-winter-sweater-jacket-long.jpg",
+            "name":"sweater jacket",
+            "color":"Black",
+            "size":"xl",
+            "price":1250
+
+        },
+        {
+            "image":"https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/19376618/2022/8/4/44e96898-374f-4594-9c9b-4ef72d8435aa1659598074052JackJonesMenPinkCamouflageColourblockedBomberwithPatchworkJa1.jpg",
+            "name":"Bomber Jacket",
+            "color":"Pink",
+            "size":"xl",
+            "price":1000
+
+        }
+    ]
+        
+    
+
+}

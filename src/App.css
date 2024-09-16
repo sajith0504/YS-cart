@@ -1,0 +1,284 @@
+/* 
+*{
+  padding: 0%;
+  margin: 0%;
+} */
+
+main{
+  height: 700px;
+  width: 100%;
+}
+:root{
+  --back_colour:white;
+  --colour:black;
+  --nav_colour:rgb(0, 153, 255);
+
+}
+.darkmode{
+  --back_colour:black;
+  --colour:white;
+ 
+}
+
+body{
+  /* background: rgb(25,179,149);
+background: linear-gradient(0deg, rgba(25,179,149,1) 0%, rgba(149,10,85,1) 100%);
+background-repeat: no-repeat; */
+background-color: var(--back_colour);
+color: var(--colour);
+transition: 1s;
+
+
+}
+
+.navbar-toggler i{
+  color: var(--colour);
+  
+ 
+}
+.navbar-toggler {
+border:1px solid var(--colour);
+padding-top: 10px;
+  padding-bottom: 10px;
+
+ 
+}
+/* .maincomponent{
+  background: rgb(25,179,149);
+  background: linear-gradient(0deg, rgba(25,179,149,1) 0%, rgba(149,10,85,1) 100%);
+  background-repeat: no-repeat;
+
+} */
+a {
+  color:var( --colour) ;
+}
+.card{
+  background-color:var( --colour) ;
+  color:var( --back_colour) ;
+}
+.nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+.nav1{
+  height: 100px;
+  width: 40%;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: rgb(242 234 234);
+}
+
+
+
+li{
+  color:var(--colour);
+}
+.navbar-nav ,.nav-link {
+  color: var(--colour) !important ;
+}
+.nav1 h1{
+ font-size: 60px;
+ color: #fd0098;
+ cursor: pointer;
+ margin-left: 10%;
+
+/* margin: 0% 0% 0% 10%; */
+}
+.nav1 h1 span{
+  font-size: 60px;
+  color: #eabf00;
+  cursor: pointer;
+  margin: 0;
+ }
+.nav2{
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  gap: 120px;
+}
+.pic{
+  height: 100px;
+  width: 100px;
+  margin-left: 100px;
+}
+.content{
+  height: 600px;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+}
+.left{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inleft{
+  height: 400px;
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+.right{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inleft h1{
+  font-size: 400%;
+}
+
+.picc{
+  height: 500px;
+  width: 300px;
+}
+.maincontent{
+  width: 100%;
+  display: flex;
+}
+.sizee{
+  /* width: 20%; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 20px;
+  margin-top: 40px;
+
+}
+.container{
+  width: 80%;
+}
+
+.btn {
+  padding: 0%;
+  width: 56%;
+  background-color: rgb(12, 2, 154);
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+  font-size: 13px;
+  height: 40px;
+  transition: 1s;}
+
+  .btn2 {
+    padding: 0%;
+    width: 40%;
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: rgb(110, 3, 3);
+    font-size: 19px;
+    height: 40px;
+    transition: 1s;
+  
+}
+
+
+.ss{
+  margin-right: 10px;
+}
+
+.btn:hover {
+  width: 56%;
+  background-color: rgb(255, 0, 47);
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+  font-size: 12px;
+  height: 40px;
+  
+}
+
+.cart-Btn{
+  width:150px;
+  background-color: rgb(254, 254, 9);
+  border-radius: 10px;
+  border: 1px solid white;
+  color: black;
+  font-size: 13px;
+  height: 40px;
+  transition: 1s;
+}
+
+.cardbtn_container{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 5%;
+}
+
+
+ul{
+  gap: 10px;
+}
+
+.containerLeft{
+  width: 50%;
+}
+.navbar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seleterDropdown{
+  width: 200px;
+  height: 30px;
+  background-color: #eabf00;
+}
+.seleterDropdown :nth-child(even){
+
+  background-color: #00ea00;
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 426px){
+  .container{
+    width: 90%;
+
+  }
+  .btn {
+    
+    
+    width: 100%;
+    font-size: 10px;
+    height: 40px;
+   
+  }.btn:hover {
+    width: 100%;
+    background-color: rgb(255, 0, 47);
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 13px;
+    height: 40px;
+    
+  }
+  .seleterDropdown{
+    width: 90%;
+  }
+  .cart-Btn{
+    width:100%;
+    background-color: rgb(86, 13, 2);
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 13px;
+    height: 40px;
+    transition: 1s;
+  }
+}
